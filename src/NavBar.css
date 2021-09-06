@@ -1,0 +1,16 @@
+.navBar{
+    height: 50px;
+    align-items: center;
+    background-color: #381DDC;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+}
+
+.navBar_logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
