@@ -7,6 +7,19 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.LoginCard{
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 1200px;
+	height :600px;
+	margin: 20px 30px 20px 30px;
+	float: left;
 }
 
 .wave{
@@ -167,7 +180,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-image: linear-gradient(to right, #32be8f,rgba(2,0,36,1), rgb(74, 225, 255));
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -178,7 +191,7 @@ a:hover{
 	transition: .5s;
 }
 .btn:hover{
-	background-position: right;
+	background-position: left;
 }
 
 
