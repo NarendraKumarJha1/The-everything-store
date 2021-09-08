@@ -11,7 +11,16 @@ body{
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+.Logo{
+	left: 300px;
+	position: absolute;
+	border-radius: 7px;
+	width  : 150px;
+	height :150px;
+}
+
 .LoginCard{
+
 	background: #fff;
 	border-radius: 7px;
 	box-shadow: 0 2px 5px #ccc;
@@ -180,7 +189,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #32be8f,rgba(2,0,36,1), rgb(74, 225, 255));
+	background-image: linear-gradient(to right,rgba(2,0,36,1), rgb(74, 225, 255));
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;

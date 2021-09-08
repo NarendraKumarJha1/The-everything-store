@@ -1,17 +1,18 @@
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
 
 function Login(){
     return<div className="LoginCard">
-        <img className="wave" alt ="" src="https://github.com/sefyudem/Responsive-Login-Form/blob/master/img/wave.png?raw=true"/>
 	<div className="container">
+			<img className="Logo" alt ="" src="https://raw.githubusercontent.com/mohitsinghal07/The-everything-store/864ec289838c6edcb7bd7a12acbbfa9389cc5a23/public/imgs/logo%20-%20The%20Everything%20Store.svg"/>
 		<div className="img">
-			<img alt ="" src="https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/82b8d8efd3b0ac6382b9d0d71a99c6cf9dcefa23/img/bg.svg"/>
+			<img alt ="" src="https://graphicriver.img.customer.envatousercontent.com/files/244778425/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=fcb8bd2c35a519c6a15066fd4f653598"/>
 		</div>
 		<div className="login-content">
 			<form action="index.html">
-				<img alt ="" src="https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/82b8d8efd3b0ac6382b9d0d71a99c6cf9dcefa23/img/avatar.svg"/>
+				<img alt ="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS78NndbZiK_0eG0HQCpI3zqFvdKfpkJCKSb3dcdpdSofQuOwtucAgSIH9LujQgU-xY7U&usqp=CAU"/>
 				<h2 className="title">Welcome</h2>
            		<div className="input-div one">
            		   <div className="i">
