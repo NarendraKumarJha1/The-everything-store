@@ -1,0 +1,73 @@
+.navBar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #381DDC;
+    
+}
+
+.navBar_logo{
+    width: 100px;
+    object-fit: contain;
+    margin-left: 40px;
+    margin-top: 3px;
+}
+
+.navBar_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.navBar_searchInput{
+    height: 20px;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    border: 1px;
+    border-radius: 2px;
+    background-image: url(https://raw.githubusercontent.com/mohitsinghal07/The-everything-store/864ec289838c6edcb7bd7a12acbbfa9389cc5a23/public/imgs/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 18px;
+    outline: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.navBar_Btns{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.navBar_cartBtn{
+    margin-right: 30px;
+}
+
+.cartBtn{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    color: #381DDC;
+    font-weight: bold;
+}
+
+.SigninBtn{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    color: #381DDC;
+    font-weight: bold;
+    
+}
+
+
+
