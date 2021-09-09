@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';

@@ -1,0 +1,62 @@
+User Product Profile trial#1
+
+ {/* <div class="row row-cols-1 row-cols-md-1">
+                    <div class="card mb-3" >
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://m.media-amazon.com/images/I/61v9TtNuqfL._SL1200_.jpg" class="img-fluid rounded-start" alt="..."/>
+                            </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Detail</h5>
+                                <p class="card-text">Description</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://www.johnsmusic.in/uploads/johns-music/products/c7x-283232_l.jpg" class="img-fluid rounded-start" alt="..."/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Detail</h5>
+                                <p class="card-text">Description</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://cdn.alzashop.com/ImgW.ashx?fd=f16&cd=STGGc05c" class="img-fluid rounded-start" alt="..."/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Detail</h5>
+                                <p class="card-text">Description</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="card mb-6">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="Image">
+                                    <img src="https://m.media-amazon.com/images/I/71MsYVlv4TS._AC_SY450_.jpg" class="img-fluid rounded-start" alt="..."/>
+                                </div>
+                            </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Detail</h5>
+                                <p class="card-text">Description</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div> */}

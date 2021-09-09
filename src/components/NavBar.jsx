@@ -1,4 +1,4 @@
-import './NavBar.css';
+import '../NavBar.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 

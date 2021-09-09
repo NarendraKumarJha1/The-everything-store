@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import NavBar from './NavBar';
-import Login from './Login';
+// import {Router, Route} from "react-router";
+import App from './components/App';
+import NavBar from './components/NavBar';
+import Login from './components/Login';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import UserProductProfile from './components/UserProductProfile';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <NavBar/>
-    <Login/>
-  </React.StrictMode>,
+  <App/>
+  ,
   document.getElementById('root')
 );
 

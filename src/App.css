@@ -203,6 +203,13 @@ a:hover{
 	background-position: left;
 }
 
+.first-section{
+	height: 100vh;
+}
+
+.second-section{
+	height: 100vh;
+}
 
 @media screen and (max-width: 1050px){
 	.container{
