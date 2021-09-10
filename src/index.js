@@ -5,11 +5,28 @@ import App from './App';
 import NavBar from './NavBar';
 import Login from './Login';
 import reportWebVitals from './reportWebVitals';
+import Footer from './Footer';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <NavBar/>
-    <Login/>
+    <Router>
+      <Switch>
+        <Route path="/login">
+          <NavBar/>
+          <Login/>
+        </Route>
+
+        <Route path="/checkout">
+          <NavBar/>
+        </Route>
+
+        <Route path="/">
+          <NavBar />
+          <Footer/>
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
