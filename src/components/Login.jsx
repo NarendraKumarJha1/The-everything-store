@@ -1,46 +1,76 @@
-import '../App.css';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
+import "../Login.css";
+import React from "react";
+import { ReactDOM } from "react";
+import { useState } from "react";
 
-function Login(){
-    return<div className="LoginCard">
-	<div className="container">
-			<img className="Logo" alt ="" src="https://raw.githubusercontent.com/mohitsinghal07/The-everything-store/864ec289838c6edcb7bd7a12acbbfa9389cc5a23/public/imgs/logo%20-%20The%20Everything%20Store.svg"/>
-		<div className="img">
-			<img alt ="" src="https://graphicriver.img.customer.envatousercontent.com/files/244778425/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=fcb8bd2c35a519c6a15066fd4f653598"/>
-		</div>
-		<div className="login-content">
-			<form action="index.html">
-				<img alt ="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS78NndbZiK_0eG0HQCpI3zqFvdKfpkJCKSb3dcdpdSofQuOwtucAgSIH9LujQgU-xY7U&usqp=CAU"/>
-				<h2 className="title">Welcome</h2>
-           		<div className="input-div one">
-           		   <div className="i">
-           		   		<i className="fas fa-user"></i>
-           		   </div>
-           		   <div className="div">
-           		   		<h5>Username</h5>
-           		   		<input type="text" className="input"/>
-           		   </div>
-           		</div>
-           		<div className="input-div pass">
-           		   <div className="i"> 
-           		    	<i className="fas fa-lock"></i>
-           		   </div>
-           		   <div className="div">
-           		    	<h5>Password</h5>
-           		    	<input type="password" className="input"/>
-            	   </div>
-            	</div>
-            	<a href="#">Forgot Password?</a>
-            	<input type="submit" className="btn" value="Login"/>
-				<input type="submit" className="btn" value="Signup"/>
-            </form>
-        </div>
-    </div>
-    {/* <script type="text/javascript" src="js/main.js"></script> */}
-    </div>;
+const inputs = document.querySelectorAll(".form_input");
 
+
+
+function addfocus() {
+  let parent = this.parentNode.parentNode;
+  parent.classList.add("focus");
 }
 
-export default Login;
+function remfocus() {
+  let parent = this.parentNode.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", addfocus);
+  input.addEventListener("blur", remfocus);
+});
+
+export default function Login() {
+
+  const[login, setLogin] = useState(false);
+
+  return (
+    <div>
+      <div className="l-form">
+        <div className="shape1"></div>
+        <div className="shape2"></div>
+        <div className="form">
+          <img src="https://cdn.pixabay.com/photo/2016/09/16/19/19/online-store-1674907_960_720.png" alt="" className="form_img" />
+          <form action="" className="form_content">
+            <h1 className="form_title">Welcome</h1>
+
+
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+              <label for="floatingPassword">Password</label>
+            </div>
+
+
+            <a href="#" className="form_forgot">
+              Forgot Password?
+            </a>
+
+            <button type="submit" className="form_button" onClick={()=>setLogin(!Login)}>{login?"Enter":"Sign Up"}</button>
+
+            <div className="form_social">
+              <span className="form_social-text">Or login with</span>
+
+              <a href="#" className="form_social-icon">
+                <i className="bx bxl-facebook"></i>
+              </a>
+              <a href="#" className="form_social-icon">
+                <i className="bx bxl-google"></i>
+              </a>
+              <a href="#" className="form_social-icon">
+                <i className="bx bxl-instagram"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+}
