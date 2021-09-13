@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="806" height="376" viewBox="0 0 806 376">
+  <defs>
+    <clipPath id="clip-logo_-_The_Everything_Store">
+      <rect width="806" height="376"/>
+    </clipPath>
+  </defs>
+  <g id="logo_-_The_Everything_Store" data-name="logo - The Everything Store" clip-path="url(#clip-logo_-_The_Everything_Store)">
+    <rect width="806" height="376" fill="#fff"/>
+    <g id="Artboard_1" data-name="Artboard 1" transform="translate(-81.478 -91.559)">
+      <rect id="Rectangle_542" data-name="Rectangle 542" width="280.427" height="240.294" rx="25" transform="translate(130.1 144.52)" fill="#381ddc"/>
+      <ellipse id="Ellipse_155" data-name="Ellipse 155" cx="9.275" cy="10.511" rx="9.275" ry="10.511" transform="translate(233.871 192.469) rotate(-87.5)" fill="#fff"/>
+      <ellipse id="Ellipse_156" data-name="Ellipse 156" cx="9.275" cy="10.511" rx="9.275" ry="10.511" transform="translate(366.19 189.713) rotate(-87.5)" fill="#fff"/>
+      <path id="Path_770" data-name="Path 770" d="M308.26,208.17s67.456,125.753,132.319,0C440.579,208.17,386.189,336.286,308.26,208.17Z" transform="translate(-63.484 -22.681)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="10"/>
+      <circle id="Ellipse_157" data-name="Ellipse 157" cx="30.903" cy="30.903" r="30.903" transform="translate(162.85 360.754)" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+      <circle id="Ellipse_158" data-name="Ellipse 158" cx="30.903" cy="30.903" r="30.903" transform="translate(317.993 360.11)" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+      <circle id="Ellipse_159" data-name="Ellipse 159" cx="15.525" cy="15.525" r="15.525" transform="translate(178.195 376.376)" fill="#fff"/>
+      <circle id="Ellipse_160" data-name="Ellipse 160" cx="15.525" cy="15.525" r="15.525" transform="translate(333.422 374.972)" fill="#fff"/>
+    </g>
+    <text id="TES" transform="translate(556 241)" fill="#381ddc" font-size="242" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-202.312" y="0">TES</tspan></text>
+    <text id="The_Everything_Store" data-name="The Everything Store" transform="translate(556 310)" fill="#381ddc" font-size="38" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-197.372" y="0">The Everything Store</tspan></text>
+  </g>
+</svg>
