@@ -1,5 +1,5 @@
 import Footer from './Footer';
-import { ReactDOM } from 'react';
+import ReactDOM from 'react-dom';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import App from './App';
