@@ -1,19 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
-import NavBar from './components/NavBar';
-import Login from './components/Login';
-import reportWebVitals from './reportWebVitals';
-<<<<<<< HEAD
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import UserProductProfile from './components/UserProductProfile';
-
-ReactDOM.render(
-  <App/>,
-=======
 import Footer from './Footer';
+import { ReactDOM } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import App from './App';
+import NavBar from './NavBar';
+import Login from './Login';
+import reportWebVitals from './reportWebVitals';
+import CartCheckout from './CartCheckout';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +19,8 @@ ReactDOM.render(
 
         <Route path="/checkout">
           <NavBar/>
+          <CartCheckout/>
+          <Footer/>
         </Route>
 
         <Route path="/">
@@ -35,7 +30,6 @@ ReactDOM.render(
       </Switch>
     </Router>
   </React.StrictMode>,
->>>>>>> 125130ea07a77f6c1f4aac18775c762f80f608ab
   document.getElementById('root')
 );
 reportWebVitals();
