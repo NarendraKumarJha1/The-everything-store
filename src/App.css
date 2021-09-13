@@ -6,9 +6,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    overflow: auto;
 	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background: #F6F6F6;
 }
 
 .Logo{
@@ -186,10 +186,10 @@ a:hover{
 	display: block;
 	width: 100%;
 	height: 50px;
-	border-radius: 25px;
+	border-radius: 5px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right,rgba(2,0,36,1), rgb(74, 225, 255));
+	background-color: #381DDC;
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -306,10 +306,11 @@ a:hover{
 
 .footer{
     height: 250px;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	top: 1150px;
     display: flex;
     align-items: center;
     background-color: #381DDC;

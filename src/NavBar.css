@@ -22,7 +22,7 @@
 }
 
 .navBar_searchInput{
-    height: 20px;
+    height: 30px;
     padding: 5px;
     border: none;
     width: 100%;
@@ -30,7 +30,7 @@
     border-radius: 2px;
     background-image: url(https://raw.githubusercontent.com/mohitsinghal07/The-everything-store/864ec289838c6edcb7bd7a12acbbfa9389cc5a23/public/imgs/search-icon.svg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: 97% 50%;
     background-size: 18px;
     outline: 0;
     margin-left: 50px;
@@ -56,6 +56,9 @@
     font-size: 15px;
     color: #381DDC;
     font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 2px;
 }
 
 .SigninBtn{
@@ -66,7 +69,9 @@
     font-size: 15px;
     color: #381DDC;
     font-weight: bold;
-    
+    outline: none;
+    border: none;
+    border-radius: 2px;
 }
 
 
