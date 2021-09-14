@@ -8,6 +8,7 @@ import Login from "./components/Login";
 import reportWebVitals from "./reportWebVitals";
 import CartCheckout from "./components/CartCheckout";
 import Homepage from "./components/Homepage.jsx";
+import Product from "./components/product";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +27,10 @@ ReactDOM.render(
           <NavBar />
           <CartCheckout />
           <Footer />
+        </Route>
+
+        <Route path="/product">
+          <Product/>
         </Route>
 
         <Route path="/">

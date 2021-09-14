@@ -1,5 +1,7 @@
 import React from "react";
 import reactDom from "react-dom";
+import "../styles.css"
+
 
 class home extends React.Component{
     render(){
