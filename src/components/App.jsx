@@ -19,6 +19,8 @@ import reportWebVitals from "../reportWebVitals";
 import UserProfile from "./UserProfile";
 import Order from "./Order";
 import CompletePro from "./CompletePro";
+import About from "./AboutUs";
+
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         {/* <Nav /> */}
 
         <Route path="/login">{login ? <Login /> : <UserProfile />}</Route>
+
+        <Route path="/about" component={About}></Route>
 
         <Route component={NotFound}></Route>
       </Switch>
