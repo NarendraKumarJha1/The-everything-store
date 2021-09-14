@@ -1,12 +1,13 @@
-import Footer from './Footer';
+import Footer from './components/Footer';
 import ReactDOM from 'react-dom';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import App from './App';
-import NavBar from './NavBar';
-import Login from './Login';
+import NavBar from './components/NavBar';
+import Login from './components/Login';
 import reportWebVitals from './reportWebVitals';
-import CartCheckout from './CartCheckout';
+import CartCheckout from './components/CartCheckout';
+import homepage from './components/homepage';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +27,9 @@ ReactDOM.render(
         <Route path="/">
           <NavBar />
           <Footer/>
+        </Route>
+        <Route path="/home">
+          <homepage/>
         </Route>
       </Switch>
     </Router>
