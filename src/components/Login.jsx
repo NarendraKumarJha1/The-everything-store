@@ -1,6 +1,6 @@
 import "../Login.css";
 import React from "react";
-import { ReactDOM } from "react";
+import ReactDOM from "react-dom";
 import { useState } from "react";
 
 const inputs = document.querySelectorAll(".form_input");

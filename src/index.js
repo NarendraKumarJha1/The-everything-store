@@ -1,39 +1,40 @@
-import Footer from './components/Footer';
-import ReactDOM from 'react-dom';
-import React from 'react';
+import Footer from "./components/Footer";
+import ReactDOM from "react-dom";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import App from './App';
-import NavBar from './components/NavBar';
-import Login from './components/Login';
-import reportWebVitals from './reportWebVitals';
-import CartCheckout from './components/CartCheckout';
-import homepage from './components/homepage';
+import App from "./App";
+import NavBar from "./components/NavBar";
+import Login from "./components/Login";
+import reportWebVitals from "./reportWebVitals";
+import CartCheckout from "./components/CartCheckout";
+import Homepage from "./components/Homepage.jsx";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route path="/login">
+        <Route path = "/user">
           <NavBar/>
-          <Login/>
+          <Homepage/>
+        </Route>
+        <Route path="/login">
+          <NavBar />
+          <Login />
         </Route>
 
         <Route path="/checkout">
-          <NavBar/>
-          <CartCheckout/>
-          <Footer/>
+          <NavBar />
+          <CartCheckout />
+          <Footer />
         </Route>
 
         <Route path="/">
           <NavBar />
-          <Footer/>
-        </Route>
-        <Route path="/home">
-          <homepage/>
+          <Footer />
         </Route>
       </Switch>
     </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 reportWebVitals();
