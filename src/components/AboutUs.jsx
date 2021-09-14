@@ -24,7 +24,7 @@ export default function About() {
               <div class="card-box text-center">
                 <div class="user-pic">
                   <img
-                    src="..../public/imgs/selfpic.jpeg"
+                    src="https://github.com/NarendraKumarJha1/The-everything-store/blob/master/public/imgs/selfpic.jpeg?raw=true"
                     class="img-fluid"
                     alt="User Pic"
                   />
