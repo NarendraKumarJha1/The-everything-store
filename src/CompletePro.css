@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-image:  linear-gradient(to bottom right, #45A29e ,#1f2833,#0b0c10,#45A29e,#1f2833,#0b0c10,#45A29e);
 }
 .card_view{
     top: 100px;
