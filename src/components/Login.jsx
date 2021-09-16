@@ -3,26 +3,6 @@ import React from "react";
 import { ReactDOM } from "react";
 import { useState } from "react";
 
-const inputs = document.querySelectorAll(".form_input");
-
-
-
-function addfocus() {
-  let parent = this.parentNode.parentNode;
-  parent.classList.add("focus");
-}
-
-function remfocus() {
-  let parent = this.parentNode.parentNode;
-  if (this.value == "") {
-    parent.classList.remove("focus");
-  }
-}
-
-inputs.forEach((input) => {
-  input.addEventListener("focus", addfocus);
-  input.addEventListener("blur", remfocus);
-});
 
 export default function Login() {
 
@@ -34,7 +14,7 @@ export default function Login() {
         <div className="shape1"></div>
         <div className="shape2"></div>
         <div className="form">
-          <img src="https://github.com/NarendraKumarJha1/The-everything-store/blob/master/public/imgs/logo%20-%20The%20Everything%20Store.png?raw=true" alt="" className="brand-logo"/>
+          <img src="https://github.com/NarendraKumarJha1/The-everything-store/blob/master/public/imgs/trans_logo.png?raw=true" alt="" className="brand-logo"/>
           <img src="https://cdn.pixabay.com/photo/2016/09/16/19/19/online-store-1674907_960_720.png" alt="" className="form_img" />
           <form action="" className="form_content">
             <img src="https://github.com/NarendraKumarJha1/The-everything-store/blob/master/public/imgs/user_icon.png?raw=true" alt="" className="user"/>
@@ -56,8 +36,8 @@ export default function Login() {
             </a>
             <input type="checkbox" id="" className="remember" name="fav_language" value="HTML"></input>
             <label className="remember-label" >Remember me</label>
-            <button type="submit" className="form_button" onClick={()=>setLogin(!Login)}>{login?"Enter":"Sign Up"}</button>
-
+            <button type="submit" className="form_button">Sign Up</button>
+            <button type="submit" className="form_button">Log In</button>
             <div className="form_social">
               <span className="form_social-text">Or login with</span>
 

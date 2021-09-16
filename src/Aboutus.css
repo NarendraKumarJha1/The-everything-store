@@ -69,3 +69,8 @@ h4{
   .icons{
       margin: 0 10px 0 10px;
   }
+  .divider{
+    color: white;
+    border: 10px solid #45a29e;
+    border-radius: 5px;
+  }

@@ -31,7 +31,7 @@ function App() {
         {/* <Route path="/" component={Login}></Route> */}
         <Route path="/compro" component={CompletePro}></Route>
         {/* <Nav /> */}
-
+        <Route path = "/order" component={Order}/>
         <Route path="/login">{login ? <Login /> : <UserProfile />}</Route>
 
         <Route path="/about" component={About}></Route>

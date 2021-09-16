@@ -35,10 +35,10 @@ body{
 
 .brand-logo{
 	top: 34px;
-	left: 340px;
+	left: 300px;
 	position: absolute;
 	height: 120px;
-	width: 170px;
+	width: 250px;
 }
 
 .remember{
@@ -117,6 +117,7 @@ img{
 	animation-name: title;
 	font-size:var(--big-font-size);
 	font-weight:500;
+	left: 125px;
 }
 
 .form_div{
@@ -200,7 +201,7 @@ img{
 	font-size: var(--normal-font-size);
 	outline: none;
 	border: none;
-	margin-bottom: 3rem;
+	margin-bottom: 1.5rem;
 	background-color: #45a29e;
 	color: #fff;
 	border-radius: .5rem;
