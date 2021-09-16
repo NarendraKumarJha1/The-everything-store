@@ -34,10 +34,10 @@ export default function Login() {
         <div className="shape1"></div>
         <div className="shape2"></div>
         <div className="form">
-          <img src="https://github.com/mohitsinghal07/The-everything-store/blob/master/public/imgs/logo%20-%20The%20Everything%20Store.png?raw=true" alt="" className="brand-logo"/>
+          <img src="https://github.com/NarendraKumarJha1/The-everything-store/blob/master/public/imgs/logo%20-%20The%20Everything%20Store.png?raw=true" alt="" className="brand-logo"/>
           <img src="https://cdn.pixabay.com/photo/2016/09/16/19/19/online-store-1674907_960_720.png" alt="" className="form_img" />
           <form action="" className="form_content">
-            <img src="https://www.iconshock.com/image/Lumina/General/administrator" alt="" className="user"/>
+            <img src="https://github.com/NarendraKumarJha1/The-everything-store/blob/master/public/imgs/user_icon.png?raw=true" alt="" className="user"/>
             <h1 id = " form-title" className="form_title">Welcome</h1>
 
 

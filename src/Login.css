@@ -34,9 +34,11 @@ body{
 }
 
 .brand-logo{
+	top: 34px;
+	left: 340px;
 	position: absolute;
-	height: 70px;
-	width: 70px;
+	height: 120px;
+	width: 170px;
 }
 
 .remember{
