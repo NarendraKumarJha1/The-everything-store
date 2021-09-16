@@ -33,6 +33,12 @@ body{
 	color: var(--first-color);
 }
 
+.brand-logo{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+}
+
 .remember{
 	margin: 0 5px 0 5px;
 }
@@ -102,6 +108,7 @@ img{
 }
 
 .form_title{
+	width: 70px;
 	margin-top: 20px;
 	margin-bottom: 50px;
 	position: relative;
@@ -252,6 +259,8 @@ img{
 		right: -6.5rem;
 
 	}
+
+	
 
 	.form{
 		grid-template-columns: 1.5fr 1fr;
