@@ -1,13 +1,18 @@
 :root{
 	--first-color: #12192c;
 	--text-color:#8590AD;
-
+	--white-color:#ffffff;
 }
 :root{
 	--body-font:'Roboto',sans-serif;
 	--big-four-size: 2rem;
 	--normal-font-size:0.938rem;
 	--smaller-font-size:0.875rem;
+}
+
+.user{
+	height: 100px;
+	width: 100px;
 }
 
 @media screen and (min-width: 768px){
@@ -26,6 +31,14 @@ body{
 	padding: 0;
 	font-family: var(--body-font);
 	color: var(--first-color);
+}
+
+.remember{
+	margin: 0 5px 0 5px;
+}
+
+.remember-label{
+	color:var(--white-color);
 }
 
 h1{
@@ -80,10 +93,21 @@ img{
 .form_img{
 	display: none;
 }
+@keyframes title {
+	0%   {color:#c5c6c7; transform: rotate(5deg);}
+    25%  {color:#66fcf1; transform: rotate(90deg);}
+    50%  {color:#000000; transform: rotate(180deg);}
+    75%  {color:#45a29e; transform:rotate(270deg); }
+    100% {color:#1f2833; transform:rotate(360deg);}
+}
+
 .form_title{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	position: relative;
+	animation-name: title;
 	font-size:var(--big-font-size);
 	font-weight:500;
-	margin-button:2rem;
 }
 
 .form_div{
@@ -168,7 +192,7 @@ img{
 	outline: none;
 	border: none;
 	margin-bottom: 3rem;
-	background-color: var(--first-color);
+	background-color: #45a29e;
 	color: #fff;
 	border-radius: .5rem;
 	cursor: pointer;
@@ -177,6 +201,8 @@ img{
 }
 
 .form_button:hover{
+	color: #000000;
+	background-color: #66fcf1;
 	box-shadow: 0px 15px 36px rgba(0,0,0,.15);
 }
 
@@ -187,12 +213,14 @@ img{
 }
 
 .form_social-text{
+	color:var(--white-color);
 	display: block;
 	font-size: var(--normal-font-size);
 	margin-bottom: 1rem;
 }
 
 .form_social-icon{
+	margin-top: 18px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -230,6 +258,7 @@ img{
 		padding: 0 2rem;
 	}
 	.form_content{
+		margin-top: 10px;
 		width: 320px;
 	}
 	.form_img{

@@ -36,7 +36,8 @@ export default function Login() {
         <div className="form">
           <img src="https://cdn.pixabay.com/photo/2016/09/16/19/19/online-store-1674907_960_720.png" alt="" className="form_img" />
           <form action="" className="form_content">
-            <h1 className="form_title">Welcome</h1>
+            <img src="https://www.iconshock.com/image/Lumina/General/administrator" alt="" className="user"/>
+            <h1 id = " form-title" className="form_title">Welcome</h1>
 
 
             <div class="form-floating mb-3">
@@ -52,7 +53,8 @@ export default function Login() {
             <a href="#" className="form_forgot">
               Forgot Password?
             </a>
-
+            <input type="checkbox" id="" className="remember" name="fav_language" value="HTML"></input>
+            <label className="remember-label" >Remember me</label>
             <button type="submit" className="form_button" onClick={()=>setLogin(!Login)}>{login?"Enter":"Sign Up"}</button>
 
             <div className="form_social">
