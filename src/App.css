@@ -11,15 +11,15 @@ body{
 	background: #F6F6F6;
 }
 
-.Logo{
+/* .Logo{
 	left: 300px;
 	position: absolute;
 	border-radius: 7px;
 	width  : 150px;
 	height :150px;
-}
+} */
 
-.LoginCard{
+/* .LoginCard{
 
 	background: #fff;
 	border-radius: 7px;
@@ -29,43 +29,43 @@ body{
 	height :600px;
 	margin: 20px 30px 20px 30px;
 	float: left;
-}
+} */
 
-.wave{
+/* .wave{
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	height: 100%;
 	z-index: -1;
-}
+} */
 
-.container{
+/* .container{
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap :7rem;
     padding: 0 2rem;
-}
+} */
 
-.img{
+/* .img{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-}
+} */
 
-.login-content{
+/* .login-content{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
-}
+} */
 
-.img img{
+/* .img img{
 	width: 500px;
-}
+} */
 
-form{
+/* form{
 	width: 360px;
 }
 
@@ -376,5 +376,5 @@ li{
 .footer p{
 	
 	color: white;
-}
+} */
 
