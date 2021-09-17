@@ -13,7 +13,7 @@ export default function About() {
     <div>
       <section id="about-us">
         <div className="about-us">
-          <h1 id="heading">About Us</h1>
+          <h1 className="about-us_about" id="heading">About Us</h1>
         </div>
       </section>
 
@@ -24,9 +24,9 @@ export default function About() {
         <div class="container">
           <div class="row">
             <div class="col-sm-6 offset-sm-3 mt-4 mb-4">
-              <h2 id="greet">Hey Guys,</h2>
-              <h3>I hope you all are doing great</h3>
-              <h3>Meet our Developer Team</h3>
+              <h2 className="about-us-name" id="greet">Hey Guys,</h2>
+              <h3 className="about-us_greeting" >I hope you all are doing great</h3>
+              <h3 className="about-us_greeting">Meet our Developer Team</h3>
             </div>
           </div>
 
@@ -42,10 +42,10 @@ export default function About() {
                     alt="User Pic"
                   />
                 </div>
-                <h2>Narendra Kumar Jha</h2>
-                <h4>Developer</h4>
+                <h2 className="about-us-name">Narendra Kumar Jha</h2>
+                <h4 className="profession">Developer</h4>
                 <hr />
-                <p id="description">
+                <p className="description">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -81,10 +81,10 @@ export default function About() {
                     alt="User Pic"
                   />
                 </div>
-                <h2>Mohit Singhal</h2>
-                <h4>Developer & Designer</h4>
+                <h2 className="about-us-name">Mohit Singhal</h2>
+                <h4 className="profession">Developer & Designer</h4>
                 <hr />
-                <p id="description">
+                <p className="description">
                   I'm Mohit Singhal, a passionate coder, and a tech enthusiast
                   well-versed in Programming (C++, Java, JavaScript) with an
                   interest in Software Development and Designing (UI/UX). A CS
@@ -122,10 +122,10 @@ export default function About() {
                     alt="User Pic"
                   />
                 </div>
-                <h2>Nitin Pandey</h2>
-                <h4>Developer</h4>
+                <h2 className="about-us-name">Nitin Pandey</h2>
+                <h4 className="profession">Developer</h4>
                 <hr />
-                <p id="description">
+                <p className="description">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown

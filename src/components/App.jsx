@@ -32,9 +32,14 @@ function App() {
         <Route path="/Home">
           <Nav/>
           <Homepage/>
-          {/* <Footer/> */}
+          <Footer/>
         </Route>
 
+        
+        <Route path="/h" >
+          <Nav/>
+          <Footer/>
+        </Route>
 
         <Route path="/footer" component={Footer}></Route>
 
@@ -51,6 +56,7 @@ function App() {
         <Route path="/cart" component={CartCheckout}></Route>
 
         <Route component={NotFound}></Route>
+
       </Switch>
     </BrowserRouter>
   </React.StrictMode>

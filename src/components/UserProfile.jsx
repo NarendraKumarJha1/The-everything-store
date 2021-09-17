@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactDOM } from "react";
+import ReactDOM from "react-dom";
 import NavBar from "./NavBar";
 import UserProductProfile from "./UserProductProfile";
 import UserProductTitle from "./UserProductTitle";

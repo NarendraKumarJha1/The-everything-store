@@ -1,12 +1,10 @@
 import "../Login.css";
 import React from "react";
-import { ReactDOM } from "react";
+import ReactDOM from "react-dom";
 import { useState } from "react";
 
 
 export default function Login() {
-
-  const[login, setLogin] = useState(false);
 
   return (
     <div>

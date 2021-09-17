@@ -56,9 +56,9 @@ h1{
 a{
 	text-decoration: none;
 }
-img{
+/* img{
 	max-width: 100%;
-}
+} */
 
 .l-form{
 	position: relative;
@@ -101,13 +101,7 @@ img{
 .form_img{
 	display: none;
 }
-@keyframes title {
-	0%   {color:#c5c6c7; transform: rotate(5deg);}
-    25%  {color:#66fcf1; transform: rotate(90deg);}
-    50%  {color:#000000; transform: rotate(180deg);}
-    75%  {color:#45a29e; transform:rotate(270deg); }
-    100% {color:#1f2833; transform:rotate(360deg);}
-}
+
 
 .form_title{
 	width: 70px;
@@ -120,6 +114,14 @@ img{
 	left: 125px;
 }
 
+
+@keyframes title {
+	0%   {color:#c5c6c7; transform: rotate(5deg);}
+    25%  {color:#66fcf1; transform: rotate(90deg);}
+    50%  {color:#000000; transform: rotate(180deg);}
+    75%  {color:#45a29e; transform:rotate(270deg); }
+    100% {color:#1f2833; transform:rotate(360deg);}
+}
 .form_div{
 	position: relative;
 	display: grid;
@@ -263,7 +265,25 @@ img{
 
 	}
 
+	.form_title{
+		width: 70px;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		position: relative;
+		animation-name: title;
+		font-size:var(--big-font-size);
+		font-weight:500;
+		left: 125px;
+	}
 	
+	
+	@keyframes title {
+		0%   {color:#c5c6c7; transform: rotate(5deg);}
+		25%  {color:#66fcf1; transform: rotate(90deg);}
+		50%  {color:#000000; transform: rotate(180deg);}
+		75%  {color:#45a29e; transform:rotate(270deg); }
+		100% {color:#1f2833; transform:rotate(360deg);}
+	}
 
 	.form{
 		grid-template-columns: 1.5fr 1fr;

@@ -1,16 +1,16 @@
-p{
-    color: #66fcf1;
-    text-shadow: 1px 1px 2px #66fcf1, 0 0 25px #66fcf1, 0 0 5px #66fcf1;
-    font-family: 'Spectral SC', serif;
-    color: #000000;
+body{
+    background: linear-gradient(217deg, #1a2e2d, #000000 70.71%),
+    linear-gradient(127deg, #000000, #253b3a 70.71%),
+    linear-gradient(336deg, #000000, #1f0d20 70.71%);
 }
-h2{
+
+.about-us-name{
     color: #66fcf1;
     text-shadow: 1px 1px 2px #66fcf1, 0 0 25px #66fcf1, 0 0 5px #66fcf1;
     font-family: 'Lobster Two', cursive;
     color: #000000;
 }
-h1{
+.about-us_about{
     color: white;
     text-shadow: 1px 1px 2px #66fcf1, 0 0 25px #66fcf1, 0 0 5px #66fcf1;
     animation-timing-function: linear;
@@ -21,14 +21,14 @@ h1{
     font-family: 'Lobster', cursive;
     color: #000000;
 }
-h3{
+.about-us_greeting{
     color: #66fcf1;
     text-shadow: 1px 1px 2px #66fcf1, 0 0 25px #66fcf1, 0 0 5px #66fcf1;
     animation-timing-function: linear;
     font-family: 'Lobster Two', cursive;
     color: #c5c6c7;
 }
-h4{
+.profession{
     font-family: 'Spectral SC', serif;
 }
 .about-us{
@@ -40,7 +40,11 @@ h4{
 .card-box{
     background-color: #66fcf1;
 }
-#description{
+.description{
+    color: #66fcf1;
+    text-shadow: 1px 1px 2px #66fcf1, 0 0 25px #66fcf1, 0 0 5px #66fcf1;
+    font-family: 'Spectral SC', serif;
+    color: #000000;
     color: #000000;
 }
 #heading{

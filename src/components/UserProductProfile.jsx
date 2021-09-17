@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../UserProductPro.css";
-import "../index.css";
 
 function UserProductProfile() {
   return (
