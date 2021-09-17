@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import NavBar from './NavBar';
 import Login from './Login';
 import reportWebVitals from './reportWebVitals';
