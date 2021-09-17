@@ -20,7 +20,8 @@ import UserProfile from "./UserProfile";
 import Order from "./Order";
 import CompletePro from "./CompletePro";
 import About from "./AboutUs";
-
+import CartCheckout from "./CartCheckout";
+import Homepage from "./Homepage";
 
 function App() {
   return (
@@ -29,12 +30,17 @@ function App() {
       <Switch>
         <Route path="/user" component={UserProfile}></Route>
         {/* <Route path="/" component={Login}></Route> */}
+
+        <Route path="/Home" component={Homepage}></Route>
+
         <Route path="/compro" component={CompletePro}></Route>
         {/* <Nav /> */}
         <Route path = "/order" component={Order}/>
         <Route path="/login">{login ? <Login /> : <UserProfile />}</Route>
 
         <Route path="/about" component={About}></Route>
+
+        <Route path="/cart" component={CartCheckout}></Route>
 
         <Route component={NotFound}></Route>
       </Switch>
