@@ -4,9 +4,9 @@
 }
 body{
 
-    background: linear-gradient(217deg, #45A29e, #1f2833 70.71%),
-            linear-gradient(127deg, #0b0c10, #45A29e 70.71%),
-            linear-gradient(336deg, #1f2833, #45A29e 70.71%);
+    background: linear-gradient(217deg, #1a2e2d, #000000 70.71%),
+            linear-gradient(127deg, #000000, #253b3a 70.71%),
+            linear-gradient(336deg, #000000, #1f0d20 70.71%);
 
     /* background-image:  linear-gradient(to bottom right, #45A29e ,#1f2833,#0b0c10,#45A29e,#1f2833,#0b0c10,#45A29e); */
 }
