@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Footer from './Footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import CartCheckout from './CartCheckout';
+import Products from './Products';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,12 @@ ReactDOM.render(
         <Route path="/checkout">
           <NavBar/>
           <CartCheckout/>
+          <Footer/>
+        </Route>
+
+        <Route path="/products">
+          <NavBar/>
+          <Products/>
           <Footer/>
         </Route>
 
