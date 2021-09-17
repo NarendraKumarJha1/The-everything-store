@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 import '../homepage.css';
-
+import Footer from "./Footer";
 
 export default function Home(){
     return<div>
@@ -145,6 +145,5 @@ export default function Home(){
             </div>
           </div>
         </div>
-
       </div>;
 }

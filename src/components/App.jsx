@@ -22,6 +22,7 @@ import CompletePro from "./CompletePro";
 import About from "./AboutUs";
 import CartCheckout from "./CartCheckout";
 import Homepage from "./Homepage";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -31,7 +32,10 @@ function App() {
         <Route path="/user" component={UserProfile}></Route>
         {/* <Route path="/" component={Login}></Route> */}
 
-        <Route path="/Home" component={Homepage}></Route>
+        <Route path="/Home">
+          <Homepage/>
+          <Footer/>
+        </Route>
 
         <Route path="/compro" component={CompletePro}></Route>
         {/* <Nav /> */}
