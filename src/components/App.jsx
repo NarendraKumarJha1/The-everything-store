@@ -5,11 +5,6 @@ import { Router, Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import browserHistory from "history/createBrowserHistory";
 import { createBrowserHistory } from "history";
 import createHistory from "history/createBrowserHistory";
-import login from "./Login";
-
-// CSS Files
-import "../Login.css";
-import "../index.css";
 
 // JSX FILES
 import Nav from "./NavBar";
@@ -23,6 +18,8 @@ import About from "./AboutUs";
 import CartCheckout from "./CartCheckout";
 import Homepage from "./Homepage";
 import Footer from "./Footer";
+import Product from "./product";
+
 
 function App() {
   return (
@@ -33,14 +30,21 @@ function App() {
         {/* <Route path="/" component={Login}></Route> */}
 
         <Route path="/Home">
+          <Nav/>
           <Homepage/>
-          <Footer/>
+          {/* <Footer/> */}
         </Route>
+
+
+        <Route path="/footer" component={Footer}></Route>
+
+        <Route path="/product" component={Product}></Route>
+
 
         <Route path="/compro" component={CompletePro}></Route>
         {/* <Nav /> */}
         <Route path = "/order" component={Order}/>
-        <Route path="/login">{login ? <Login /> : <UserProfile />}</Route>
+        <Route path="/login" component={Login}></Route>
 
         <Route path="/about" component={About}></Route>
 
