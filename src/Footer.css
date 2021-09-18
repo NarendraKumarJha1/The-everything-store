@@ -38,7 +38,7 @@ li{
     color: white;
 }
 
-.footer .copyright {
+.footer.copy.copyright {
     color: white;
     text-align:center;
     padding-top:24px;
@@ -69,7 +69,6 @@ li{
 }
 
 .copyright{
-	position: absolute;
 	bottom: 20px;
 	left: 550px;
 	color: white;
