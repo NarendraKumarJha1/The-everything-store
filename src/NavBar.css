@@ -12,8 +12,21 @@ img{
     position: inherit;
 }
 
-.bg-light{
-    height: auto;
+.navBar_searchInput{
+    height: 30px;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    border: 1px;
+    border-radius: 2px;
+    background-image: url(https://raw.githubusercontent.com/mohitsinghal07/The-everything-store/864ec289838c6edcb7bd7a12acbbfa9389cc5a23/public/imgs/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    background-size: 18px;
+    outline: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    
 }
 
 a{
@@ -21,12 +34,35 @@ a{
     padding: 0;
 }
 
-#navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 3rem;
-    font-weight: bold;
+.navBar_cartBtn{
+    margin-right: 30px;
+}
 
-  }
+.cartBtn{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    color: #381DDC;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.SigninBtn{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    color: #381DDC;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
   
   .nav-item {
     padding: 0 18px;
