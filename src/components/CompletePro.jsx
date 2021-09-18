@@ -7,7 +7,7 @@ export default function Order() {
     <div>
       <NavBar />
       <section className="first_sec">
-        <div className="card" id="card">
+        <div className="card complete-card" id="card">
           <form class="row g-3">
             <div class="col-md-4">
               <label for="validationDefault01" class="form-label">

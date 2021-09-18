@@ -58,7 +58,7 @@ export default function Home(){
         </div>
         <div class="row">
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>
@@ -69,7 +69,7 @@ export default function Home(){
 
 
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>
@@ -80,7 +80,7 @@ export default function Home(){
 
 
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>
@@ -90,7 +90,7 @@ export default function Home(){
           </div>
 
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>
@@ -104,7 +104,7 @@ export default function Home(){
 
         <div class="row">
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>
@@ -115,7 +115,7 @@ export default function Home(){
 
 
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>
@@ -126,7 +126,7 @@ export default function Home(){
 
 
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>
@@ -136,7 +136,7 @@ export default function Home(){
           </div>
 
           <div class="pricing-column col-lg-3 col-md-6">
-            <div class="card">
+            <div class="card home-card">
               <img class="show-img" src="imgs/jeans.png" alt="" />
               <h2>Tailored Jeans</h2>
               <p class="price">Rs.499/-</p>

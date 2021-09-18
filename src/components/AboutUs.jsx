@@ -160,15 +160,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <footer>
-        <a alt="" href="#">
-          Home
-        </a>
-        <a alt="" href="#">
-          Sign Up
-        </a>
-      </footer>
       {/* <section className="">
         <div>
           <h3>Narendra</h3>

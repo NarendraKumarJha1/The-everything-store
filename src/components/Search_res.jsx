@@ -1,6 +1,8 @@
-import '../product.css';
+import '../Search_res.css';
 
-function products(){
+
+
+function Search_res(){
     return (
         <div className="products">
             <div className="filterby_Header">
@@ -239,4 +241,4 @@ function products(){
     );
 }
 
-export default products;
+export default Search_res;

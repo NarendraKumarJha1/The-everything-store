@@ -18,48 +18,64 @@ import About from "./AboutUs";
 import CartCheckout from "./CartCheckout";
 import Homepage from "./Homepage";
 import Footer from "./Footer";
-import Product from "./product";
+import Products from "./products";
+import Search_res from "./Search_res";
 
 
 function App() {
   return (
     <React.StrictMode>
-    <BrowserRouter basename="/">
-      <Switch>
-        <Route path="/user" component={UserProfile}></Route>
-        {/* <Route path="/" component={Login}></Route> */}
+      <BrowserRouter basename="/">
+        <Switch>
+          <Route path="/user" component={UserProfile}></Route>
+          {/* <Route path="/" component={Login}></Route> */}
 
-        <Route path="/Home">
-          <Nav/>
-          <Homepage/>
-          <Footer/>
-        </Route>
+          <Route path="/Home">
+            <Nav />
+            <Homepage />
+            <Footer />
+          </Route>
 
-        
-        <Route path="/h" >
-          <Nav/>
-          <Footer/>
-        </Route>
+          <Route path="/h">
+            <Nav />
+            <Footer />
+          </Route>
 
-        <Route path="/footer" component={Footer}></Route>
+          <Route path="/footer" component={Footer}></Route>
 
-        <Route path="/product" component={Product}></Route>
+          <Route path="/search-res">
+            <Nav />
+            <Search_res />
+            <Footer/>
+          </Route>
 
 
-        <Route path="/compro" component={CompletePro}></Route>
-        {/* <Nav /> */}
-        <Route path = "/order" component={Order}/>
-        <Route path="/login" component={Login}></Route>
+          <Route path="/product">
+            <Nav />
+            <Products />
+          </Route>
 
-        <Route path="/about" component={About}></Route>
+          <Route path="/compro" component={CompletePro}></Route>
+          {/* <Nav /> */}
+          <Route path="/order" component={Order} />
+          <Route path="/login" component={Login}></Route>
 
-        <Route path="/cart" component={CartCheckout}></Route>
+          <Route path="/about">
+            <Nav/>
+            <About/>
+            <Footer/>
+          </Route>
 
-        <Route component={NotFound}></Route>
+          <Route path="/cart">
+            <Nav />
+            <CartCheckout />
+            <Footer/>
+          </Route>
 
-      </Switch>
-    </BrowserRouter>
-  </React.StrictMode>
+          <Route component={NotFound}></Route>
+        </Switch>
+      </BrowserRouter>
+    </React.StrictMode>
   );
 }
 
