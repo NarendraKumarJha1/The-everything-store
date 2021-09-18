@@ -1,4 +1,4 @@
-import './CartCheckout.css';
+import '../CartCheckout.css';
 
 
 function CartCheckout() {

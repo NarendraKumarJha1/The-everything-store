@@ -22,16 +22,33 @@ import CompletePro from "./CompletePro";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <React.StrictMode>
+    <Router>
       <Switch>
-        {/* <Route path="/" component={Login}></Route> */}
-        <Route path="/" component={CompletePro}></Route>
-        {/* <Nav /> */}
-        <Route path="/user" component={UserProfile}></Route>
-        <Route path="/login">{login ? <UserProfile /> : <Login />}</Route>
-        <Route component={NotFound}></Route>
+        <Route path="/login">
+          <NavBar/>
+          <Login/>
+        </Route>
+
+        <Route path="/checkout">
+          <NavBar/>
+          <CartCheckout/>
+          <Footer/>
+        </Route>
+
+        <Route path="/products">
+          <NavBar/>
+          <Products/>
+          <Footer/>
+        </Route>
+
+        <Route path="/">
+          <NavBar />
+          <Footer/>
+        </Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
+  </React.StrictMode>
   );
 }
 
