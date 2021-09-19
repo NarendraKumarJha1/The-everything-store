@@ -20,6 +20,7 @@ import Homepage from "./Homepage";
 import Footer from "./Footer";
 import Products from "./products";
 import Search_res from "./Search_res";
+import userNavbar from "./userNavbar";
 
 
 function App() {

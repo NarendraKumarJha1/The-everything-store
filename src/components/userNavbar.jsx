@@ -1,21 +1,13 @@
-import "../NavBar.css";
 import React from "react";
 import ReactDOM from "react-dom";
-import FindInPageIcon from "@material-ui/icons/FindInPage";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import FavoriteIcon from "@material-ui/icons/Favorite";
 
-function NavBar() {
+export default function userNavbar() {
   return (
-    <div className="navbar-holder">
-      <nav
-        id="navbar-id"
-        class="navbar navbar-expand-lg navbar-light bg-primary gen-navbar"
-      >
+    <div>
+      <nav class="navbar navbar-expand-lg " style={{backgroundColor: "#381DDC"}}>
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            TES
+            Navbar
           </a>
           <button
             class="navbar-toggler"
@@ -32,12 +24,12 @@ function NavBar() {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
-                  Sell
+                  Home
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Refurbished
+                  Link
                 </a>
               </li>
               <li class="nav-item dropdown">
@@ -72,42 +64,19 @@ function NavBar() {
                   </li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
             </ul>
-            <form class="d-flex navbar-search-holder">
+            <form class="d-flex">
               <input
-                class="navbar-search navbar-search-input"
+                class="form-control me-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
-                style={{ marginTop: "20px", marginBottom: "20px" }}
               />
-              <button
-                id="navbar-btn-search"
-                class="btn btn-outline-danger navbar-search-button "
-                type="submit"
-              >
-                <FindInPageIcon />
-              </button>
-              <button
-                id="btn-Search"
-                class="btn btn-outline-danger navbar-search-button"
-                type="submit"
-              >
-                <ShoppingCartIcon />
-              </button>
-              <button
-                id="btn-Search"
-                class="btn btn-outline-danger navbar-search-button"
-                type="submit"
-              >
-                <FavoriteIcon />
-              </button>
-              <button
-                id="btn-Search"
-                class="btn btn-outline-danger navbar-search-button"
-                type="submit"
-              >
-                <AccountCircleIcon />
+              <button class="btn btn-outline-success" type="submit">
+                Search
               </button>
             </form>
           </div>
@@ -116,5 +85,3 @@ function NavBar() {
     </div>
   );
 }
-
-export default NavBar;

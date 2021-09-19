@@ -4,14 +4,15 @@ import Footer from "./Footer";
 import NavBar from "./NavBar";
 import UserProductProfile from "./UserProductProfile";
 import UserProductTitle from "./UserProductTitle";
+import userNavbar from "./userNavbar";
 
 export default function UserProfile() {
   return (
     <div>
-      <NavBar/>
+      <userNavbar />
       <UserProductTitle />
       <UserProductProfile />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
