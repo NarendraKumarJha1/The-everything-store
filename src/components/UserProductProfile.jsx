@@ -4,92 +4,252 @@ import "../UserProductPro.css";
 
 function UserProductProfile() {
   return (
-    <div class="card-group">
-      {/* FIRST CARD */}
+    <div className="user-container">
+      <div class="row ">
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-secondary mb-3 user_card">
+            <div class="card-header bg-secondary border-secondary">
+              Canon 14ff5x
+            </div>
+            <div class="card-body text-secondary">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0070/7032/files/image5_4578a9e6-2eff-4a5a-8d8c-9292252ec848.jpg?v=1620247043 "
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary border-secondary">Price</div>
+          </div>
+        </div>
 
-      <div className="card w-25" id="cardProduct">
-        <img
-          src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
-          class="card-img-top"
-          alt="User Pic"
-        />
-        <div className="card-body">
-          <h3 class="card-title">PRODUCT</h3>
-          <h2 class="dog-bio">PRICE</h2>
-          <hr />
-          <p class="dog-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <hr />
-          <button class="btn btn-outline-dark btn-lg" type="button">
-            Sign Up
-          </button>
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-success mb-3 user_card">
+            <div class="card-header bg-success border-success">
+              Zara hand bag
+            </div>
+            <div class="card-body text-success">
+              <img
+                src="https://img.pixelz.com/blog/using-product-images-on-ecommerce-site/F_Purse1_drop.jpg?w=1000"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-success border-success">Price</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-danger mb-3 user_card">
+            <div class="card-header bg-danger border-danger">Beats Solo3</div>
+            <div class="card-body text-danger">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MX472?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1570119347612"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-danger border-danger">Footer</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-secondary mb-3 user_card">
+            <div class="card-header bg-secondary border-secondary">
+              Canon 14ff5x
+            </div>
+            <div class="card-body text-secondary">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0070/7032/files/image5_4578a9e6-2eff-4a5a-8d8c-9292252ec848.jpg?v=1620247043 "
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary border-secondary">Price</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-success mb-3 user_card">
+            <div class="card-header bg-success border-success">
+              Zara hand bag
+            </div>
+            <div class="card-body text-success">
+              <img
+                src="https://img.pixelz.com/blog/using-product-images-on-ecommerce-site/F_Purse1_drop.jpg?w=1000"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-success border-success">Price</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-danger mb-3 user_card">
+            <div class="card-header bg-danger border-danger">Beats Solo3</div>
+            <div class="card-body text-danger">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MX472?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1570119347612"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-danger border-danger">Footer</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-secondary mb-3 user_card">
+            <div class="card-header bg-secondary border-secondary">
+              Canon 14ff5x
+            </div>
+            <div class="card-body text-secondary">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0070/7032/files/image5_4578a9e6-2eff-4a5a-8d8c-9292252ec848.jpg?v=1620247043 "
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary border-secondary">Price</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-success mb-3 user_card">
+            <div class="card-header bg-success border-success">
+              Zara hand bag
+            </div>
+            <div class="card-body text-success">
+              <img
+                src="https://img.pixelz.com/blog/using-product-images-on-ecommerce-site/F_Purse1_drop.jpg?w=1000"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-success border-success">Price</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-danger mb-3 user_card">
+            <div class="card-header bg-danger border-danger">Beats Solo3</div>
+            <div class="card-body text-danger">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MX472?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1570119347612"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-danger border-danger">Footer</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-secondary mb-3 user_card">
+            <div class="card-header bg-secondary border-secondary">
+              Canon 14ff5x
+            </div>
+            <div class="card-body text-secondary">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0070/7032/files/image5_4578a9e6-2eff-4a5a-8d8c-9292252ec848.jpg?v=1620247043 "
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-secondary border-secondary">Price</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-success mb-3 user_card">
+            <div class="card-header bg-success border-success">
+              Zara hand bag
+            </div>
+            <div class="card-body text-success">
+              <img
+                src="https://img.pixelz.com/blog/using-product-images-on-ecommerce-site/F_Purse1_drop.jpg?w=1000"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-success border-success">Price</div>
+          </div>
+        </div>
+
+        <div className="col-3 col-4 col-md-4">
+          <div class="card border-danger mb-3 user_card">
+            <div class="card-header bg-danger border-danger">Beats Solo3</div>
+            <div class="card-body text-danger">
+              <img
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MX472?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1570119347612"
+                className="card-img-top user-img"
+                alt=""
+              />
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text user-card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer bg-danger border-danger">Footer</div>
+          </div>
         </div>
       </div>
-
-      {/* SECOND CARD */}
-
-      <div className="card w-25" id="cardProduct">
-        <img
-          src="https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270"
-          class="card-img-top"
-          alt="User Pic"
-        />
-        <div className="card-body">
-          <h3 class="card-title">PRODUCT</h3>
-          <h2 class="card-text">PRICE</h2>
-          <hr />
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <hr />
-          <button class="btn btn-primary btn-lg btn-dark" type="button">
-            Sign Up
-          </button>
-        </div>
-      </div>
-
-      {/* THIRD CARD */}
-
-      <div className="card w-25" id="cardProduct">
-        <img
-          src="https://cdn.pixabay.com/photo/2018/10/30/16/06/water-lily-3784022__480.jpg"
-          class="card-img-top"
-          alt="User Pic"
-        />
-        <div className="card-body">
-          <h3 class="card-title">PRODUCT</h3>
-          <h2 class="card-text">PRICE</h2>
-          <hr />
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <hr />
-          <button class="btn btn-primary btn-lg btn-dark" type="button">
-            Sign Up
-          </button>
-        </div>
-      </div>
-    
-    
     </div>
   );
 }

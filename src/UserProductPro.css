@@ -21,7 +21,18 @@ a{
   padding-left: 7%;
 }
 
-.container{
+.user-img{
+  height: 200px;
+  width: 150px;
+}
+
+.user-card-text{
+  font-family: 'Kaushan Script';
+  color: black;
+}
+
+
+.user-container{
   top: 1.2rem;
   margin: 0;
   max-width: 1100px;
@@ -82,13 +93,13 @@ img{
   transition: 0.5s;
 }
 
-.card-box:hover .user-pic {
+.user_card:hover .user-pic {
   transform: rotate(0deg);
   transform: scale(2);
   transform-style: preserve-3d;
 }
 
-.card-box {
+.user_card {
   padding: 15px;
   background-color: #ff4c75;
   margin: 20px 0px;
@@ -98,13 +109,10 @@ img{
   transition: 0.5s;
 }
 
-.card-box:hover {
+.user_card:hover {
   border: 5px solid #ffffff;
 }
 
-.card-box p {
-  color: #fff;;
-}
 
 #cardProduct{
   margin: 30px 20px 30px 20px;

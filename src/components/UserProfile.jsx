@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 import UserProductProfile from "./UserProductProfile";
 import UserProductTitle from "./UserProductTitle";
@@ -10,6 +11,7 @@ export default function UserProfile() {
       <NavBar/>
       <UserProductTitle />
       <UserProductProfile />
+      <Footer/>
     </div>
   );
 }
