@@ -1,14 +1,10 @@
-body{
-    background-color:#381DDC;
-    background: #381DDC;
-}
+
 .navbar{
     height: 70px;
-    background-color: #381DDC;
 }
 
 #NNavbar{
-    background-color: #381DDC;
+    background-color: #000C66;
 }
 /* 
 img{
@@ -48,11 +44,11 @@ img{
 }
 
 #navbar-id{
-    background-color: #381DDC;
+    background-color: #000C66;
 }
 
 .navbar-holder{
-    background-color: #381DDC;
+    background-color: #000C66;
 }
 
 .container-fluid{

@@ -10,8 +10,9 @@ function NavBar() {
   return (
     <div className="navbar-holder">
       <nav
+        style={{color:"#000C66"}}
         id="navbar-id"
-        class="navbar navbar-expand-lg navbar-light bg-primary gen-navbar"
+        class="navbar navbar-expand-lg navbar-light  gen-navbar"
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">

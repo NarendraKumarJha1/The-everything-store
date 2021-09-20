@@ -1,7 +1,8 @@
 body{
-    background: linear-gradient(217deg, #1a2e2d, #000000 70.71%),
-    linear-gradient(127deg, #000000, #253b3a 70.71%),
-    linear-gradient(336deg, #000000, #1f0d20 70.71%);
+    background-image: linear-gradient(to right, #7EC8E3, #98a6ff);
+    /* background: linear-gradient(217deg, #ffffff, #7EC8E3 70.71%),
+    linear-gradient(127deg, #ffffff, #7EC8E3 70.71%),
+    linear-gradient(336deg, #7EC8E3, #98a6ff 70.71%); */
 }
 
 .about-us-name{
@@ -11,6 +12,7 @@ body{
     color: #000000;
 }
 .about-us_about{
+    padding-top: 10px;
     color: white;
     text-shadow: 1px 1px 2px #66fcf1, 0 0 25px #66fcf1, 0 0 5px #66fcf1;
     animation-timing-function: linear;
@@ -34,7 +36,7 @@ body{
 .about-us{
     
     margin: 0px 0px 30px 0px;
-    height: 200px;
+    height: 70px;
     background-color: #1f2833;
 }
 .card-box{
@@ -47,28 +49,21 @@ body{
     color: #000000;
     color: #000000;
 }
-#heading{
+/* #heading{
     padding-top: 60px;
     align-self: center;
     text-align: center;
     color: #c5c6c7;
-}
+} */
 #greet{
     color: #c5c6c7;
 }
 @keyframes about {
-    0%   {color:#c5c6c7; left: 0; top: auto; transform: rotate(5deg);}
-    25%  {color:#66fcf1; left: 30px; top: 30px;transform: rotate(90deg);}
-    50%  {color:#000000; transform: rotate(180deg);}
-    75%  {color:#45a29e; transform:rotate(270deg); }
-    100% {color:#1f2833; transform:rotate(360deg);}
-  }
-  footer {
-    height: 150px;
-    text-align: center;
-    padding: 3px;
-    background-color: #1f2833;
-    color: white;
+    0%   {color:#c5c6c7; }
+    25%  {color:#66fcf1; }
+    50%  {color:#000000; }
+    75%  {color:#45a29e; }
+    100% {color:#1f2833; }
   }
   .icons{
       margin: 0 10px 0 10px;
@@ -77,4 +72,151 @@ body{
     color: white;
     border: 10px solid #45a29e;
     border-radius: 5px;
+  }
+/* 
+  .container-fluid {
+    padding: 3% 15% 7%;
+  } */
+  
+  /* Buttons */
+  .Download-Button {
+    color: #fff;
+    border-color:#DF678c;
+    background-color:#0000FF;
+    margin: 5% 3% 5% 0;
+  }
+  
+  .title-image {
+    width: 20%;
+    top: 150px;
+    transform: rotate(25deg);
+    position: absolute;
+  }
+  
+  #features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .Feature-Box {
+    padding: 5%;
+  }
+  
+  .icon {
+    color: #0000FF;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #0000FF;
+  }
+  
+  /* Testimonials */
+  #testimonials {
+    background-color:#9900cc;
+    color: #0000FF ;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+  }
+  
+  #press {
+    align-content: center;
+    background-color:#3d155f ;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  @media (max-width: 1000px) {
+    #testimonials {
+      text-align: center;
+    }
+  
+    #pricing {
+      text-align: center;
+    }
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      width: auto;
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+  #cta {
+    color: #ff4c75;
+    padding: 5% 15% 5%;
+    background-color: #3d155f;
+  }
+  
+  .user-pic {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 20px auto 20px;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    border-top: 3px solid #000C66;
+    border-bottom: 3px solid #000C66;
+    transform: rotate(-30deg);
+    transition: 0.5s;
+  }
+  
+  .card-box:hover .user-pic {
+    transform: rotate(0deg);
+    transform: scale(2);
+    transform-style: preserve-3d;
+  }
+  
+  .card-box {
+    padding: 15px;
+    background-color: #0000FF;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 8px 0px #d4d4d4;
+    transition: 0.5s;
+  }
+  
+  .card-box:hover {
+    border: 5px solid #000C66;
+  }
+  
+  .card-box p {
+    color: #fff;;
+  }
+  
+  
+  .cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .social-icon {
+    margin: 0 1%;
+  }
+  .dog-bio{
+    color: #e699ff;
+  }
+  .dog-info{
+    text-decoration:underline;
+    font-family: Montserrat;
   }

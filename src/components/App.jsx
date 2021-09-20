@@ -68,9 +68,9 @@ function App() {
           </Route>
 
           <Route path="/cart">
-            <Nav />
+            {/* <Nav /> */}
             <CartCheckout />
-            <Footer/>
+            {/* <Footer/> */}
           </Route>
 
           <Route component={NotFound}></Route>
