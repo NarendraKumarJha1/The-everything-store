@@ -9,7 +9,7 @@ import userNavbar from "./userNavbar";
 export default function UserProfile() {
   return (
     <div>
-      <userNavbar />
+      <userNavBar />
       <UserProductTitle />
       <UserProductProfile />
       <Footer />
