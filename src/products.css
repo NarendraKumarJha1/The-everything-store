@@ -11,13 +11,14 @@
     margin: 1% 0% 0% 95%;
   }
 
-  .product-card{
+  .main-card{
     margin: 2% 0% 2% 4%;
     width: 80%;
+    border: 1px solid;
   }
 
   .buy-now{
-   margin:1% 4% 4% 14%;
+   margin:1% 12% 4% 0%;
    border:none;
 	 outline: 0;
 	 padding: 12px;
@@ -28,10 +29,12 @@
 	 width: 60%;
 	 font-size: 18px;
 	 border-radius:2%;
-
+   text-shadow: 2px 2px 8px #e65ccf;
   }
 
   .buy-now:hover {
+    box-shadow: 2px 2px 8px #131212;
+    width:61%;
 	  opacity: 0.7;
     background-color:#94091c;
   }
@@ -79,16 +82,17 @@
 
 .similar-product{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 300px;
+	width: 250px;
 	text-align: center;
 	font-family: arial;
-	margin: 0% 1% 6% 1%;
+	margin: 1% 1% 6% 1%;
   opacity: 1.0;
 }
 
 .similar-product:hover{
   opacity: 1.0;
   background-color: #e6f2ff;
+  width:252px;
 }
 
 .similar-product-price{
@@ -121,5 +125,5 @@
 
   .similar-product-head{
     margin-left: 2%;
-    background-color: #ffffe6;
+    background-color: #e7e754;
   }
