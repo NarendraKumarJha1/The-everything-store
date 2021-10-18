@@ -5,7 +5,7 @@ import { Router, Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import browserHistory from "history/createBrowserHistory";
 import { createBrowserHistory } from "history";
 import createHistory from "history/createBrowserHistory";
-
+  
 // JSX FILES
 import Nav from "./NavBar";
 import Login from "./Login";
@@ -36,13 +36,6 @@ function App() {
             <Homepage />
             <Footer />
           </Route>
-
-          <Route path="/h">
-            <Nav />
-            <Footer />
-          </Route>
-
-          <Route path="/footer" component={Footer}></Route>
 
           <Route path="/search-res">
             <Nav />

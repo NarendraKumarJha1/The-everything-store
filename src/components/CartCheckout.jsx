@@ -17,7 +17,7 @@ function CartCheckout() {
                     </thead>
                     <tbody>
                         <tr>
-                        <th scope="row"><img className="product_img" src="https://5.imimg.com/data5/PC/CQ/SG/SELLER-25796055/boat-rockerz-wireless-headphone-500x500.jpeg" alt="img"/>boat Headphone</th>
+                        <th scope="row"><img className="cart-product_img" src="https://5.imimg.com/data5/PC/CQ/SG/SELLER-25796055/boat-rockerz-wireless-headphone-500x500.jpeg" alt="img"/>boat Headphone</th>
                         <td>
                             <div class="form-group col-md-5">
                                 <input type="number" class="form-control" id="inputquantity"/>
@@ -30,7 +30,7 @@ function CartCheckout() {
                         </td>
                         </tr>
                         <tr>
-                        <th scope="row"><img className="product_img" src="https://m.media-amazon.com/images/I/61DjwgS4cbL._SL1500_.jpg" alt="img"/>Pendrive Sandisk 8 GB</th>
+                        <th scope="row"><img className="cart-product_img" src="https://m.media-amazon.com/images/I/61DjwgS4cbL._SL1500_.jpg" alt="img"/>Pendrive Sandisk 8 GB</th>
                         <td>
                             <div class="form-group col-md-5">
                                 <input type="number" class="form-control" id="inputquantity"/>
@@ -43,7 +43,7 @@ function CartCheckout() {
                         </td>
                         </tr>
                         <tr>
-                        <th scope="row"><img className="product_img" src="https://5.imimg.com/data5/DJ/SF/IS/SELLER-8586032/hp-pendrive-2-0-32gb-500x500.jpg" alt="img"/>Pendrive HP 32 GB</th>
+                        <th scope="row"><img className="cart-product_img" src="https://5.imimg.com/data5/DJ/SF/IS/SELLER-8586032/hp-pendrive-2-0-32gb-500x500.jpg" alt="img"/>Pendrive HP 32 GB</th>
                         <td>
                             <div class="form-group col-md-5">
                                 <input type="number" class="form-control" id="inputquantity"/>
