@@ -15,7 +15,7 @@ function NavBar() {
         class="navbar navbar-expand-lg navbar-light  gen-navbar"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="nav-mynavbar" href="#">
             TES
           </a>
           <button
@@ -32,18 +32,18 @@ function NavBar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-mynavbar" aria-current="page" href="#">
                   Sell
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-mynavbar" href="#">
                   Refurbished
                 </a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-mynavbar"
                   href="#"
                   id="navbarDropdown"
                   role="button"

@@ -64,6 +64,11 @@ a{
     padding: 0;
 }
 
+.nav-mynavbar{
+    color:#ffffff;
+    text-decoration: none;
+}
+
 #navbar-brand {
     font-family: "Ubuntu";
     font-size: 3rem;

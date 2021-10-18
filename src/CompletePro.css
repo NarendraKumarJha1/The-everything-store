@@ -2,22 +2,25 @@
     margin: 0;
     padding: 0;
 } */
-body{
+/* body{
 
     background: linear-gradient(217deg, #1a2e2d, #000000 70.71%),
             linear-gradient(127deg, #000000, #253b3a 70.71%),
             linear-gradient(336deg, #000000, #1f0d20 70.71%);
-}
+} */
 .card_view{
     top: 100px;
     margin: 50px 100px 0 100px;
 }
 .complete-card{
-    border-radius: 15px 50px 30px 5px;
-    margin: 150px 100px 0 100px;
-    padding: 10px 10px 10px 10px;
+    /* border-radius: 15px 50px 30px 5px; */
+    margin: 150px 80px 150px 80px;
+    padding: 30px 30px 30px 30px;
     height: 350px;
 }
 #card{
-    border-radius: 15px 50px 30px 5px;
+    
+    box-shadow: 12px 12px 2px 1px rgba(24, 24, 24, 0.2);
+
+    /* border-radius: 15px 50px 30px 5px; */
 }

@@ -5,18 +5,18 @@ import "../UserProductTitle.css";
 function UserProductTitle() {
   return (
     <div className="Title">
-      <span>Y</span>
-      <span>O</span>
-      <span>U</span>
-      <span>R</span>
-      <span></span>
-      <span>P</span>
-      <span>R</span>
+      <span className="prof">Y</span>
+      <span className="prof">O</span>
+      <span className="prof">U</span>
+      <span className="prof">R</span>
+      <span className="prof"></span>
+      <span className="prof">P</span>
+      <span className="prof">R</span>
       <span class="letter"></span>
-      <span>D</span>
-      <span>U</span>
-      <span>C</span>
-      <span>T</span>
+      <span className="prof">D</span>
+      <span className="prof">U</span>
+      <span className="prof">C</span>
+      <span className="prof">T</span>
     </div>
   );
 }

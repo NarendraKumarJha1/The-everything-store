@@ -9,7 +9,7 @@ div.Title{
     font-size:150%; 
     -webkit-animation-timing-function: cubic-bezier();
 }
-span{
+.prof{
 	margin: 0 15px;
 	line-height: .7;
 	text-shadow: 0 0 2px rgba(0, 0, 0, .45);

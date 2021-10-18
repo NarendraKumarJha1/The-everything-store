@@ -49,7 +49,10 @@ function App() {
             <Products />
           </Route>
 
-          <Route path="/compro" component={CompletePro}></Route>
+          <Route path="/compro">
+          <CompletePro />
+          <Footer/>
+          </Route>
           {/* <Nav /> */}
           <Route path="/order" component={Order} />
           <Route path="/login" component={Login}></Route>
@@ -61,9 +64,9 @@ function App() {
           </Route>
 
           <Route path="/cart">
-            {/* <Nav /> */}
+            <Nav />
             <CartCheckout />
-            {/* <Footer/> */}
+            <Footer/>
           </Route>
 
           <Route component={NotFound}></Route>
