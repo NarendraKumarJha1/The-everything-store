@@ -1,0 +1,12 @@
+<svg id="Products_-_Thumbnail" data-name="Products - Thumbnail" xmlns="http://www.w3.org/2000/svg" width="239" height="160" viewBox="0 0 239 160">
+  <rect id="Rectangle_497" data-name="Rectangle 497" width="239" height="160" rx="2" fill="#f6f6f6"/>
+  <g id="Icons_Shopping_ic-shopping-box" data-name="Icons / Shopping / ic-shopping-box" transform="translate(83.844 44)">
+    <rect id="Rectangle_362" data-name="Rectangle 362" width="72" height="72" fill="none"/>
+    <g id="ic-shopping-box" transform="translate(6 6)">
+      <rect id="Rectangle_102" data-name="Rectangle 102" width="60" height="60" rx="2" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="Line_439" data-name="Line 439" y2="15" transform="translate(30)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="Line_440" data-name="Line 440" x2="9" transform="translate(33 39)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+      <line id="Line_441" data-name="Line 441" x2="15" transform="translate(33 48)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+    </g>
+  </g>
+</svg>
