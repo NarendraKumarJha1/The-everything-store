@@ -18,7 +18,7 @@ export default function Home() {
                     </div>
                     <p><button class="buy-now"><b>Buy Now</b></button><button class="buy-now"><b>Add to cart</b></button></p>
                 </div>
-
+            
                 <div class="pricing-column col-lg-6 col-md-2">
                     <div class="about-product">
                         <h2><b>Realme C21Y (Cross Black, 64 GB)  (4 GB RAM)</b></h2>

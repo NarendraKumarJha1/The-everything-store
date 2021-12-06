@@ -190,6 +190,7 @@ function Search_res(){
                 <div class="card-deck">
                     <div class="card">
                         <img className="product_img" src="https://m.media-amazon.com/images/I/71+GpJy4ocL._UL1500_.jpg" alt="..."/>
+    
                         <div class="card-body">
                             <h5 class="card-title">Sparx</h5>
                             <p class="card-text">Men's Sd0323g Stylish Sneakers</p>

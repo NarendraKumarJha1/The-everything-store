@@ -11,16 +11,16 @@ function UserProductProfile() {
             <div class="card-header bg-secondary border-secondary">
               Canon 14ff5x
             </div>
+  
             <div class="card-body text-secondary">
               <img
                 src="https://cdn.shopify.com/s/files/1/0070/7032/files/image5_4578a9e6-2eff-4a5a-8d8c-9292252ec848.jpg?v=1620247043 "
                 className="card-img-top user-img"
                 alt=""
               />
-              <h5 class="card-title">Success card title</h5>
+              <h5 class="card-title">⭐⭐⭐⭐</h5>
               <p class="card-text user-card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
               </p>
             </div>
             <div class="card-footer bg-secondary border-secondary">Price</div>
@@ -38,10 +38,9 @@ function UserProductProfile() {
                 className="card-img-top user-img"
                 alt=""
               />
-              <h5 class="card-title">Success card title</h5>
+              <h5 class="card-title">⭐⭐⭐⭐</h5>
               <p class="card-text user-card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
               </p>
             </div>
             <div class="card-footer bg-success border-success">Price</div>
@@ -57,10 +56,9 @@ function UserProductProfile() {
                 className="card-img-top user-img"
                 alt=""
               />
-              <h5 class="card-title">Success card title</h5>
+              <h5 class="card-title">⭐⭐⭐⭐</h5>
               <p class="card-text user-card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
               </p>
             </div>
             <div class="card-footer bg-danger border-danger">Footer</div>
