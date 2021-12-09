@@ -285,11 +285,12 @@ a{
 	}
 
 	.form_title{
+        font-family: 'Courier New', Courier, monospace;
 		top: 30px;
 		width: 70px;
 		margin-top: 20px;
 		margin-bottom: 50px;
-		position: relative;
+		position: inherit;
 		animation-name: title;
 		font-size:var(--big-font-size);
 		font-weight:500;
