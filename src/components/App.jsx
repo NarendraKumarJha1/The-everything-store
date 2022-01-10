@@ -8,7 +8,6 @@ import createHistory from "history/createBrowserHistory";
   
 // JSX FILES
 import Nav from "./NavBar";
-import Login from "./Login";
 import SignUp from "./Signup";
 import NotFound from "./NotFound.js";
 import reportWebVitals from "../reportWebVitals";
@@ -57,7 +56,6 @@ function App() {
           {/* <Nav /> */}
           <Route path="/order" component={Order} />
           <Route path="/login" >
-            {/* <Login/> */}
             <SignUp/>
           </Route>
 

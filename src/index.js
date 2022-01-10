@@ -12,7 +12,6 @@ import UserProductProfile from "./components/UserProductProfile";
 
 // JSX FILES
 import Nav from "./components/NavBar";
-import Login from "./components/Login";
 import NotFound from "./components/NotFound.js";
 import reportWebVitals from "./reportWebVitals";
 import UserProfile from "./components/UserProfile";
